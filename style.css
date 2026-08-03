@@ -672,13 +672,9 @@ a {
 
 .statbar .stat span {
   display: block;
-
   font-size: 0.85rem;
-
   opacity: 0.9;
-
   text-transform: uppercase;
-
   letter-spacing: 0.12em;
 }
 
