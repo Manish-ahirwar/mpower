@@ -1879,3 +1879,117 @@ table.spec td {
     display: none;
   }
 }
+
+/* =====================================
+   Mobile Footer Center Alignment
+===================================== */
+
+@media (max-width: 768px) {
+  /* Center Footer Logo */
+
+  .footer-logo,
+  .footer-brand img {
+    display: block;
+
+    margin: 0 auto 20px;
+  }
+
+  /* Center Brand Section */
+
+  .footer-brand {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+  }
+
+  /* Center Company Description */
+
+  .footer-brand p {
+    text-align: center;
+
+    max-width: 500px;
+
+    margin: 0 auto;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .footer .wrap,
+  .footer-cols {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+  }
+
+  .footer-brand,
+  .footer-links,
+  .footer-contact,
+  .fb-offices,
+  .footer-office {
+    width: 100%;
+    text-align: center;
+  }
+
+  .fb-office-logo {
+    background: red;
+  }
+
+  .fb-company {
+    text-align: center;
+  }
+
+  .office-info {
+    padding: 0;
+    margin: 18px 0;
+    list-style: none;
+  }
+
+  .office-info li {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer a {
+    justify-content: center;
+  }
+
+  .footer-bottom {
+    text-align: center;
+  }
+
+  .fb-certs {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .fb-office {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 12px;
+  }
+
+  .fb-office-logo {
+    display: block;
+    margin: 0 auto;
+    width: 140px; /* Adjust if needed */
+    height: auto;
+  }
+}
+
+/* ============================== */
+
+/* ======================================
+   MOBILE FOOTER
+====================================== */
