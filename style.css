@@ -1675,6 +1675,14 @@ table.spec td {
   color: white;
 }
 
+@media (max-width:768px) {
+  .footer-map-btn{
+    margin-top: 15px !important;
+    
+  }
+}
+
+
 
 .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.12);
@@ -1732,6 +1740,8 @@ table.spec td {
   list-style: none;
   padding: 0;
   margin: 20px 0;
+  /* background-color: red; */
+  text-align: left;
 }
 
 .office-info li {
@@ -1741,6 +1751,7 @@ table.spec td {
   color: rgba(255, 255, 255, 0.88);
   margin-bottom: 14px;
   line-height: 1.6;
+  margin-left: -31px;
 }
 
 .office-info i {
@@ -1748,6 +1759,33 @@ table.spec td {
   margin-top: 4px;
   width: 18px;
 }
+
+.footer-nav-links{
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  margin-top: 218px;
+  
+}
+
+.footer-nav-links .products-nav{
+  min-width: 200px;
+}
+
+@media (max-width: 768px) {
+
+  .footer-nav-links{
+    display: block;
+    margin-top: 20px;
+    
+  }
+
+  .products-nav{
+    margin-top: 20px;
+  }
+}
+
+
 
 /* ============================================================
      SCROLL REVEAL
