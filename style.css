@@ -1636,9 +1636,11 @@ table.spec td {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
-  margin-top: 18px;
+  margin-top: 25px;
   padding-top: 14px;
   border-top: 1px solid rgba(255, 255, 255, 0.12);
+  /* background-color: red; */
+  width: 500px;
 }
 .footer-brand .fb-office-logo {
   height: 36px !important;
@@ -1646,7 +1648,34 @@ table.spec td {
   display: block;
   margin: 0 0 6px;
   border-radius: 4px;
+
 }
+
+.footer-map-btn{
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 18px;
+  padding: 16px;
+  margin-top: 15px;
+  transition: 0.35s ease;
+  font-weight: 700;
+}
+
+.footer-map-btn:hover{
+  transform: translateY(-4px);
+  background: rgba(255, 255, 255, 0.09);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
+  background-color: var(--gold-dark);
+  color: white;
+  font-weight: 700;
+  
+}
+
+.footer-map-btn a:hover{
+  color: white;
+}
+
+
 .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.12);
   padding: 20px 0;
@@ -1656,6 +1685,7 @@ table.spec td {
   gap: 16px;
   flex-wrap: wrap;
   color: rgba(255, 255, 255, 0.6);
+  
 }
 .footer-bottom .fb-certs {
   display: flex;
@@ -1667,12 +1697,29 @@ table.spec td {
 }
 
 /* NEW FOOTER CSS */
+
 .footer {
   background: linear-gradient(135deg, #0b3f82, #0a5fb4);
 }
 
-.footer-office {
+/* .footer-office {
   margin-top: 20px;
+} */
+
+.footer-office,
+.fb-offices > div {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 18px;
+  padding: 25px;
+  transition: 0.35s ease;
+}
+
+.footer-office:hover,
+.fb-offices > div:hover {
+  transform: translateY(-6px);
+  background: rgba(255, 255, 255, 0.09);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
 }
 
 .office-title {

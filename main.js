@@ -191,7 +191,7 @@ const PRODUCTS = [
     subs: [
       {
         name: "Door Hardware (Hinges & Lock Sets)",
-        imgs: ["assets/product-coldroom.jpg", "assets/coldroom-pvc-lock.jpg"],
+        imgs: ["assets/products/door-hardware.jpeg", "assets/coldroom-pvc-lock.jpg"],
         app: "Walk-in cold room & freezer doors",
         sku: "MP-CR-DOOR",
         spec: {
