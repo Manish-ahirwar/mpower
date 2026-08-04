@@ -253,7 +253,7 @@ a {
   flex-shrink: 0;
 }
 .brand img {
-  height: 70px;
+  height: 60px;
   width: auto;
   filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.55));
 }
@@ -1589,7 +1589,10 @@ table.spec td {
 .footer {
   /* background: var(--ink);
   color: rgba(255, 255, 255, 0.78); */
-  background: linear-gradient(180deg, #0a3a73 0%, #0b4a91 100%);
+  /* background: linear-gradient(180deg, #0a3a73 0%, #0b4a91 100%);
+  color: #fff; */
+
+  background: linear-gradient(135deg, #0d1342 0%, #11306f 45%, #1d4e9d 100%);
   color: #fff;
 }
 .footer-cols {
@@ -1648,10 +1651,9 @@ table.spec td {
   display: block;
   margin: 0 0 6px;
   border-radius: 4px;
-
 }
 
-.footer-map-btn{
+.footer-map-btn {
   background: rgba(255, 255, 255, 0.06);
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 18px;
@@ -1661,28 +1663,24 @@ table.spec td {
   font-weight: 700;
 }
 
-.footer-map-btn:hover{
+.footer-map-btn:hover {
   transform: translateY(-4px);
   background: rgba(255, 255, 255, 0.09);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
   background-color: var(--gold-dark);
   color: white;
   font-weight: 700;
-  
 }
 
-.footer-map-btn a:hover{
+.footer-map-btn a:hover {
   color: white;
 }
 
-@media (max-width:768px) {
-  .footer-map-btn{
+@media (max-width: 768px) {
+  .footer-map-btn {
     margin-top: 15px !important;
-    
   }
 }
-
-
 
 .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.12);
@@ -1693,7 +1691,6 @@ table.spec td {
   gap: 16px;
   flex-wrap: wrap;
   color: rgba(255, 255, 255, 0.6);
-  
 }
 .footer-bottom .fb-certs {
   display: flex;
@@ -1732,7 +1729,7 @@ table.spec td {
 
 .office-title {
   color: #fff;
-  font-size: 22px;
+  font-size: 32px !important;
   margin-bottom: 18px;
 }
 
@@ -1760,32 +1757,34 @@ table.spec td {
   width: 18px;
 }
 
-.footer-nav-links{
+.footer-nav-links {
   display: flex;
   justify-content: space-between;
   gap: 60px;
   margin-top: 218px;
-  
 }
 
-.footer-nav-links .products-nav{
+.footer-nav-links .products-nav {
   min-width: 200px;
 }
 
-@media (max-width: 768px) {
+.products-nav h4 {
+  font-size: 28px;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 2px;
+}
 
-  .footer-nav-links{
+@media (max-width: 768px) {
+  .footer-nav-links {
     display: block;
     margin-top: 20px;
-    
   }
 
-  .products-nav{
+  .products-nav {
     margin-top: 20px;
   }
 }
-
-
 
 /* ============================================================
      SCROLL REVEAL
@@ -1975,7 +1974,6 @@ table.spec td {
   .footer-logo,
   .footer-brand img {
     display: block;
-
     margin: 0 auto 20px;
   }
 
@@ -1983,13 +1981,9 @@ table.spec td {
 
   .footer-brand {
     display: flex;
-
     flex-direction: column;
-
     align-items: center;
-
     justify-content: center;
-
     text-align: center;
   }
 
@@ -1997,9 +1991,7 @@ table.spec td {
 
   .footer-brand p {
     text-align: center;
-
     max-width: 500px;
-
     margin: 0 auto;
   }
 
