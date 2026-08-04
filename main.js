@@ -40,7 +40,7 @@ const PRODUCTS = [
       },
       {
         name: "SS410 Screws",
-        img: "assets/products/ss-410-screws.webp",
+        img: "assets/products/ss410-cateloue-front-page.jpeg",
         app: "Coastal and humid sites",
         sku: "MP-SDS-SS410",
         spec: {
